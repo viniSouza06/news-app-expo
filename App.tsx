@@ -41,7 +41,7 @@ export default function App() {
         </View>
       ) : error ? (
         <View style={styles.centerContainer}>
-          <Text style={styles.errorText}>Error: {error}</Text>
+          <Text style={styles.errorText}>Erro: {error}</Text>
         </View>
       ) : (
         <ScrollView contentContainerStyle={styles.scrollContent}>
